@@ -4,7 +4,7 @@ module.exports = {
   development: {
     client: 'sqlite3',
     connection: {
-      filename: '', // enter db file path here after it's created
+      filename: './data/cookbook.db3', // enter db file path here after it's created
     },
     useNullAsDefault: true, // needed for sqlite
     migrations: {
